@@ -1,0 +1,38 @@
+﻿  
+     #header {
+	position: relative;
+	height: 50px;
+	text-align: center;
+	background-color: #000000;
+	color: #eee;
+	width: 100%;
+    }
+
+    #header > span {
+	line-height: 50px;
+	vertical-align: middle;
+    }
+
+    #header > span > a {
+	text-decoration: none;
+	color: #eee;
+    } 
+
+    #footer {
+	position: relative;
+	height: 50px;
+	text-align: center;
+	background-color: #000000;
+	color: #eee;
+	width: 100%;
+    }
+
+    #footer > span {
+	line-height: 50px;
+	vertical-align: middle;
+    }
+
+    #footer > span > a {
+	text-decoration: none;
+	color: #eee;
+    }
