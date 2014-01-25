@@ -1,5 +1,5 @@
 ﻿  
-     #header {
+    #header {
 	position: relative;
 	height: 50px;
 	text-align: center;
@@ -20,7 +20,7 @@
 
     #footer {
 	position: relative;
-	height: 50px;
+    height: 50px;
 	text-align: center;
 	background-color: #000000;
 	color: #eee;
