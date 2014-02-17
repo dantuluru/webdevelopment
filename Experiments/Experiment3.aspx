@@ -35,7 +35,7 @@
 <body>
     <form id="form1" runat="server">
         <div id="header">
-            <span><a href="Default.aspx" target="_blank">Mounika Dantuluru's Website</a></span>
+            <span><a href="../Default.aspx" target="_blank">Mounika Dantuluru's Website</a></span>
 
         </div>
         <br /><br />
@@ -71,7 +71,7 @@
         <br /><br /><br />
         <div><h4>Sort the tiles and form a koala bear</h4></div>
         <div id="footer">
-            <span>Copyright &copy; 2014 by Mounika Dantuluruspan>
+            <span>Copyright &copy; 2014 by Mounika Dantuluru</ span>
         </div>
     </form>
 </body>
