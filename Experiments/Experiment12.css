@@ -1,0 +1,44 @@
+﻿#sidebar {
+    width: 250px;
+    height: 600px;
+    float: left;
+    border:2px solid #000000;
+}
+
+#map {
+    height: 600px;
+    margin-left: 250px;
+}
+
+#instructions {
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.maroon-text {
+	color: #571c1f;
+}
+
+.red-text {
+	color: #e51937;
+}
+
+.orange-text {
+	color: #f47d31;
+}
+
+.green-text {
+	color: #00a950;
+}
+
+.blue-text {
+	color: #00aeef;
+}
+
+.ltln-text {
+	color: #156AEC;
+}
+
+.loc-text {
+	color: #009856;
+}

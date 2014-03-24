@@ -5,3 +5,8 @@ Experiment3.aspx		JQuery Sortable
 Experiment4.htm			JQuery Accordion
 Experiment5.aspx		JQuery Tabs
 Experiment6.aspx        ASP.NET WebForm
+Experiment7.aspx        JavaScript Google Maps
+Experiment8.aspx        JSONP Rotten Tomatoes Movie Search
+Experiment9.aspx        JQuery Plot
+Experiment10.aspx       JSON Us Census Bureau
+Experiment11.aspx       Leaflet.js User Location on Map
