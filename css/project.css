@@ -8,18 +8,17 @@ body {
 
 #header-container {
     height: 50px;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     top: 0;
-    background-color: #ed9d9d;
+    background-color: #4e9a9f;
 }
 
 #main-container {
-    margin: 50px 0 0 0;
-    height: 600px;
+    /*margin: 50px 0 0 0;*/
+    margin: 0;
+    height: 700px;
     width: 100%;
-    background-color: #5e939b;
-    /*border: 1px solid #000;*/
 }
  
 #header {
@@ -98,21 +97,23 @@ body {
 
 /* Main Content Divs */
 #sidebar {
-    height: 200px;
+    height: 100%;
     float: left;
     width: 20%;
 }
 
 #content {
-    height: 500px;
+    height: 100%;
     float: left;
-    width: 78%;
+    width: 80%;
 }
 
 /* Tabs */
-#tab-map, #tab-graph, #tab-datatable {
-    /*padding: 1px;*/
+#tabs {
+    height: 700px;
     width: 100%;
+}
+#tabs-map, #tabs-plot, #tabs-datatable {
     background:#fff;
 }
 
@@ -122,7 +123,7 @@ body {
 }
 
 .tabs a {
-    padding:5px 10px;
+    /*padding:5px 10px;*/
     display:inline-block;
     background:#666;
     color:#fff;
@@ -134,8 +135,48 @@ body {
     color:#000;
 }
 
+/* Tabs */
+.ui-tabs {
+    padding: 0;
+    border: 0;
+}
+.ui-tabs-nav {
+    font-size: 12px;
+}
+.ui-tabs .ui-tabs-panel {
+    font-size: 14px;
+    padding: 0;
+}
+.jqplot-target {
+    font-size: 18px;
+}
+ol.description {
+    list-style-position: inside;
+    font-size: 15px;
+    /*margin: 1.5em auto;*/
+    padding: 0 15px;
+    /*width: 600px;*/
+}
+
 /* Map */
 #map {
+    height: 666px;
     width: 100%;
-    height: 500px;
+}
+
+#plot {
+    height: 666px;
+    width: 1000px;
+}
+
+/* jqGrid wrap header */
+th.ui-th-column div{
+    word-wrap: break-word; /* IE 5.5+ and CSS3 */
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    overflow: hidden;
+    height: auto !important;
+    vertical-align: middle;
 }
