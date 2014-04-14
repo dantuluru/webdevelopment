@@ -1,0 +1,44 @@
+﻿
+body {
+    background: url('../Images/mounika/background.jpg') repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    font-size: 16px;
+    font-family: Calibri,Times New Roman;
+}
+
+form, html {
+    height: 100%;
+    min-height: 100%;
+    
+}
+
+.doc-container {
+    padding: 25px;
+}
+.doc-wrapper {
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #3d80ae;
+    min-height: 100%;
+    background-color: #dfdfdf;
+    opacity: 0.6;
+    color: #000000 !important;
+    padding: 15px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h3,h1 {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h1 {
+    text-align:center;
+}

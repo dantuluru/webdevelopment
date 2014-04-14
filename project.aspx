@@ -3,43 +3,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="javascript/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="javascript/jquery-ui-1.10.4.custom/css/dot-luv/jquery-ui-1.10.4.custom.min.css" />
     <link rel="stylesheet" type="text/css" href="javascript/jquery.jqplot.1.0.8r1250/dist/jquery.jqplot.min.css" />
     <link rel="stylesheet" type="text/css" href="javascript/jquery.jqGrid-4.6.0/css/ui.jqgrid.css" />
     <link rel="stylesheet" type="text/css" href="javascript/leaflet-0.7.2/leaflet.css" />
     <link rel="stylesheet" type="text/css" href="css/project.css" />
 
-    <title>Geospatial Application</title>
+    <title>US Census Explorer</title>
 </head>
- 
+
 <body>
     <div id="wrapper">
 	    <div id="header-container">
             <div id="header">
-                <div id="nav-menu">
-                    <!--<ul class="nav-menu-list">
-                        <li class="nav-menu-list-item"><a href="#">Create</a></li>
-                    </ul> <!-- end nav-menu-list -->
-                </div><!-- end nav-menu -->
-                <div id="nav-login">
-                    <!--<ul class="nav-login-list">
-                        <li class="nav-login-list-item"><button id="login-btn" type="submit">Login</button></li>
-                        <li class="nav-login-list-item"><button id="logout-btn" type="submit">Logout</button></li>
-                    </ul> <!-- end nav-login-list -->
-                </div><!-- end nav-login -->
-            </div> <!-- end header -->
-        </div> <!-- end header-container -->
+                <span>US Census Explorer</span>
+            </div>
+        </div>
 
         <div id="main-container">
             <div id="sidebar">
-                <div id="instructions">
-                    <p>Drag the blue marker on the map to any point to get the Block #, County and State</p>
-                    <p>Selected County population by race is shown in plot tab and data tab</p>
-                </div>
                 <div id="lat-lon">
+                    <p class="ltln-text"><strong>Latitude, Longitude</strong></p>
                 </div>
                 <div id="loc-info">
+                    <p class="lcinfo-text"><strong>Block</strong></p>
+                    <p class="lcinfo-text"><strong>County</strong></p>
+                    <p class="lcinfo-text"><strong>State</strong></p>
                 </div>
+                <div id="race-or-age-div">
+					<label for="race-or-age" id="race-or-age-label"><strong>Select Race or Age:</strong></label>
+					<select id="race-or-age" name="race-or-age">
+						<option value="race">Race</option>
+						<option value="age">Age</option>
+					</select>
+				</div>
             </div> <!-- end sidebar -->
 
             <div id="content">
@@ -56,12 +54,20 @@
                         <div id="plot"></div>
                     </div>
                     <div id="tabs-datatable">
-                        <table id="datagrid"></table>
-                        <div id="pager"></div>
+                        <div id="datatable">
+                            <table id="datagrid"></table>
+                            <div id="pager"></div>
+                        </div>    
                     </div>
-                    </div>
+                </div> <!-- end tabs -->
             </div> <!-- end content -->
         </div> <!-- end main-container-->
+
+        <div id="footer-container">
+            <div id="footer">
+                <span>Copyright &copy; 2014 by <a href="Default.aspx">Mounika Dantuluru</a></span>
+            </div>
+        </div>
     </div>
 
     <script type="text/javascript" src="javascript/jquery.jqplot.1.0.8r1250/dist/jquery.min.js"></script>
@@ -76,6 +82,7 @@
     <script type="text/javascript" src="javascript/jquery.jqplot.1.0.8r1250/dist/plugins/jqplot.categoryAxisRenderer.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.jqplot.1.0.8r1250/dist/plugins/jqplot.barRenderer.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.jqplot.1.0.8r1250/dist/plugins/jqplot.pointLabels.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.jqplot.1.0.8r1250/dist/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
     <script type="text/javascript" src="javascript/leaflet-0.7.2/leaflet.js"></script>
     <script type="text/javascript" src="javascript/jquery.jqGrid-4.6.0/plugins/ui.multiselect.js"></script>
     <script type="text/javascript" src="javascript/jquery.jqGrid-4.6.0/js/i18n/grid.locale-en.js"></script>

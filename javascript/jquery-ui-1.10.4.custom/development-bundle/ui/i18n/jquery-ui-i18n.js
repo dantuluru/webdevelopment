@@ -1,6 +1,6 @@
-/*! jQuery UI - v1.10.4 - 2014-03-23
+/*! jQuery UI - v1.10.4 - 2014-04-07
 * http://jqueryui.com
-* Includes: jquery.ui.datepicker-af.js, jquery.ui.datepicker-ar-DZ.js, jquery.ui.datepicker-ar.js, jquery.ui.datepicker-az.js, jquery.ui.datepicker-bg.js, jquery.ui.datepicker-bs.js, jquery.ui.datepicker-ca.js, jquery.ui.datepicker-cs.js, jquery.ui.datepicker-cy-GB.js, jquery.ui.datepicker-da.js, jquery.ui.datepicker-de.js, jquery.ui.datepicker-el.js, jquery.ui.datepicker-en-AU.js, jquery.ui.datepicker-en-GB.js, jquery.ui.datepicker-en-NZ.js, jquery.ui.datepicker-eo.js, jquery.ui.datepicker-es.js, jquery.ui.datepicker-et.js, jquery.ui.datepicker-eu.js, jquery.ui.datepicker-fa.js, jquery.ui.datepicker-fi.js, jquery.ui.datepicker-fo.js, jquery.ui.datepicker-fr-CH.js, jquery.ui.datepicker-fr.js, jquery.ui.datepicker-gl.js, jquery.ui.datepicker-he.js, jquery.ui.datepicker-hi.js, jquery.ui.datepicker-hr.js, jquery.ui.datepicker-hu.js, jquery.ui.datepicker-hy.js, jquery.ui.datepicker-id.js, jquery.ui.datepicker-is.js, jquery.ui.datepicker-it.js, jquery.ui.datepicker-ja.js, jquery.ui.datepicker-ka.js, jquery.ui.datepicker-kk.js, jquery.ui.datepicker-km.js, jquery.ui.datepicker-ko.js, jquery.ui.datepicker-lb.js, jquery.ui.datepicker-lt.js, jquery.ui.datepicker-lv.js, jquery.ui.datepicker-mk.js, jquery.ui.datepicker-ml.js, jquery.ui.datepicker-ms.js, jquery.ui.datepicker-nl-BE.js, jquery.ui.datepicker-nl.js, jquery.ui.datepicker-no.js, jquery.ui.datepicker-pl.js, jquery.ui.datepicker-pt-BR.js, jquery.ui.datepicker-pt.js, jquery.ui.datepicker-rm.js, jquery.ui.datepicker-ro.js, jquery.ui.datepicker-ru.js, jquery.ui.datepicker-sk.js, jquery.ui.datepicker-sl.js, jquery.ui.datepicker-sq.js, jquery.ui.datepicker-sr-SR.js, jquery.ui.datepicker-sr.js, jquery.ui.datepicker-sv.js, jquery.ui.datepicker-ta.js, jquery.ui.datepicker-th.js, jquery.ui.datepicker-tj.js, jquery.ui.datepicker-tr.js, jquery.ui.datepicker-uk.js, jquery.ui.datepicker-vi.js, jquery.ui.datepicker-zh-CN.js, jquery.ui.datepicker-zh-HK.js, jquery.ui.datepicker-zh-TW.js, jquery.ui.datepicker-be.js, jquery.ui.datepicker-fr-CA.js, jquery.ui.datepicker-ky.js, jquery.ui.datepicker-nb.js, jquery.ui.datepicker-nn.js
+* Includes: jquery.ui.datepicker-af.js, jquery.ui.datepicker-ar-DZ.js, jquery.ui.datepicker-ar.js, jquery.ui.datepicker-az.js, jquery.ui.datepicker-be.js, jquery.ui.datepicker-bg.js, jquery.ui.datepicker-bs.js, jquery.ui.datepicker-ca.js, jquery.ui.datepicker-cs.js, jquery.ui.datepicker-cy-GB.js, jquery.ui.datepicker-da.js, jquery.ui.datepicker-de.js, jquery.ui.datepicker-el.js, jquery.ui.datepicker-en-AU.js, jquery.ui.datepicker-en-GB.js, jquery.ui.datepicker-en-NZ.js, jquery.ui.datepicker-eo.js, jquery.ui.datepicker-es.js, jquery.ui.datepicker-et.js, jquery.ui.datepicker-eu.js, jquery.ui.datepicker-fa.js, jquery.ui.datepicker-fi.js, jquery.ui.datepicker-fo.js, jquery.ui.datepicker-fr-CA.js, jquery.ui.datepicker-fr-CH.js, jquery.ui.datepicker-fr.js, jquery.ui.datepicker-gl.js, jquery.ui.datepicker-he.js, jquery.ui.datepicker-hi.js, jquery.ui.datepicker-hr.js, jquery.ui.datepicker-hu.js, jquery.ui.datepicker-hy.js, jquery.ui.datepicker-id.js, jquery.ui.datepicker-is.js, jquery.ui.datepicker-it.js, jquery.ui.datepicker-ja.js, jquery.ui.datepicker-ka.js, jquery.ui.datepicker-kk.js, jquery.ui.datepicker-km.js, jquery.ui.datepicker-ko.js, jquery.ui.datepicker-ky.js, jquery.ui.datepicker-lb.js, jquery.ui.datepicker-lt.js, jquery.ui.datepicker-lv.js, jquery.ui.datepicker-mk.js, jquery.ui.datepicker-ml.js, jquery.ui.datepicker-ms.js, jquery.ui.datepicker-nb.js, jquery.ui.datepicker-nl-BE.js, jquery.ui.datepicker-nl.js, jquery.ui.datepicker-nn.js, jquery.ui.datepicker-no.js, jquery.ui.datepicker-pl.js, jquery.ui.datepicker-pt-BR.js, jquery.ui.datepicker-pt.js, jquery.ui.datepicker-rm.js, jquery.ui.datepicker-ro.js, jquery.ui.datepicker-ru.js, jquery.ui.datepicker-sk.js, jquery.ui.datepicker-sl.js, jquery.ui.datepicker-sq.js, jquery.ui.datepicker-sr-SR.js, jquery.ui.datepicker-sr.js, jquery.ui.datepicker-sv.js, jquery.ui.datepicker-ta.js, jquery.ui.datepicker-th.js, jquery.ui.datepicker-tj.js, jquery.ui.datepicker-tr.js, jquery.ui.datepicker-uk.js, jquery.ui.datepicker-vi.js, jquery.ui.datepicker-zh-CN.js, jquery.ui.datepicker-zh-HK.js, jquery.ui.datepicker-zh-TW.js
 * Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
 
 /* Written by Renier Pretorius. */
@@ -90,6 +90,28 @@ jQuery(function($) {
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['az']);
+});
+/* Written by Pavel Selitskas <p.selitskas@gmail.com> */
+jQuery(function($){
+	$.datepicker.regional['be'] = {
+		closeText: 'Зачыніць',
+		prevText: '&larr;Папяр.',
+		nextText: 'Наст.&rarr;',
+		currentText: 'Сёньня',
+		monthNames: ['Студзень','Люты','Сакавік','Красавік','Травень','Чэрвень',
+		'Ліпень','Жнівень','Верасень','Кастрычнік','Лістапад','Сьнежань'],
+		monthNamesShort: ['Сту','Лют','Сак','Кра','Тра','Чэр',
+		'Ліп','Жні','Вер','Кас','Ліс','Сьн'],
+		dayNames: ['нядзеля','панядзелак','аўторак','серада','чацьвер','пятніца','субота'],
+		dayNamesShort: ['ндз','пнд','аўт','срд','чцв','птн','сбт'],
+		dayNamesMin: ['Нд','Пн','Аў','Ср','Чц','Пт','Сб'],
+		weekHeader: 'Тд',
+		dateFormat: 'dd.mm.yy',
+		firstDay: 1,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''};
+	$.datepicker.setDefaults($.datepicker.regional['be']);
 });
 /* Written by Stoyan Kyosev (http://svest.org). */
 jQuery(function($){
@@ -524,6 +546,28 @@ jQuery(function($){
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['fo']);
 });
+jQuery(function ($) {
+	$.datepicker.regional['fr-CA'] = {
+		closeText: 'Fermer',
+		prevText: 'Précédent',
+		nextText: 'Suivant',
+		currentText: 'Aujourd\'hui',
+		monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+			'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+		monthNamesShort: ['janv.', 'févr.', 'mars', 'avril', 'mai', 'juin',
+			'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'],
+		dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+		dayNamesShort: ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+		dayNamesMin: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
+		weekHeader: 'Sem.',
+		dateFormat: 'yy-mm-dd',
+		firstDay: 0,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''
+	};
+	$.datepicker.setDefaults($.datepicker.regional['fr-CA']);
+});
 /* Written Martin Voelkle (martin.voelkle@e-tc.ch). */
 jQuery(function($){
 	$.datepicker.regional['fr-CH'] = {
@@ -876,6 +920,29 @@ jQuery(function($){
 		yearSuffix: '년'};
 	$.datepicker.setDefaults($.datepicker.regional['ko']);
 });
+/* Written by Sergey Kartashov (ebishkek@yandex.ru). */
+jQuery(function($){
+	$.datepicker.regional['ky'] = {
+		closeText: 'Жабуу',
+		prevText: '&#x3c;Мур',
+		nextText: 'Кий&#x3e;',
+		currentText: 'Бүгүн',
+		monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь',
+		'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+		monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн',
+		'Июл','Авг','Сен','Окт','Ноя','Дек'],
+		dayNames: ['жекшемби', 'дүйшөмбү', 'шейшемби', 'шаршемби', 'бейшемби', 'жума', 'ишемби'],
+		dayNamesShort: ['жек', 'дүй', 'шей', 'шар', 'бей', 'жум', 'ише'],
+		dayNamesMin: ['Жк','Дш','Шш','Шр','Бш','Жм','Иш'],
+		weekHeader: 'Жум',
+		dateFormat: 'dd.mm.yy',
+		firstDay: 1,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''
+	};
+	$.datepicker.setDefaults($.datepicker.regional['ky']);
+});
 /* Written by Michel Weimerskirch <michel@weimerskirch.net> */
 jQuery(function($){
 	$.datepicker.regional['lb'] = {
@@ -1008,6 +1075,27 @@ jQuery(function($){
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['ms']);
 });
+/* Written by Bjørn Johansen (post@bjornjohansen.no). */
+jQuery(function($){
+	$.datepicker.regional['nb'] = {
+		closeText: 'Lukk',
+		prevText: '&#xAB;Forrige',
+		nextText: 'Neste&#xBB;',
+		currentText: 'I dag',
+		monthNames: ['januar','februar','mars','april','mai','juni','juli','august','september','oktober','november','desember'],
+		monthNamesShort: ['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'],
+		dayNamesShort: ['søn','man','tir','ons','tor','fre','lør'],
+		dayNames: ['søndag','mandag','tirsdag','onsdag','torsdag','fredag','lørdag'],
+		dayNamesMin: ['sø','ma','ti','on','to','fr','lø'],
+		weekHeader: 'Uke',
+		dateFormat: 'dd.mm.yy',
+		firstDay: 1,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''
+	};
+	$.datepicker.setDefaults($.datepicker.regional['nb']);
+});
 /* David De Sloovere @DavidDeSloovere */
 jQuery(function($){
 	$.datepicker.regional['nl-BE'] = {
@@ -1051,6 +1139,27 @@ jQuery(function($){
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional.nl);
+});
+/* Written by Bjørn Johansen (post@bjornjohansen.no). */
+jQuery(function($){
+	$.datepicker.regional['nn'] = {
+		closeText: 'Lukk',
+		prevText: '&#xAB;Førre',
+		nextText: 'Neste&#xBB;',
+		currentText: 'I dag',
+		monthNames: ['januar','februar','mars','april','mai','juni','juli','august','september','oktober','november','desember'],
+		monthNamesShort: ['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'],
+		dayNamesShort: ['sun','mån','tys','ons','tor','fre','lau'],
+		dayNames: ['sundag','måndag','tysdag','onsdag','torsdag','fredag','laurdag'],
+		dayNamesMin: ['su','må','ty','on','to','fr','la'],
+		weekHeader: 'Veke',
+		dateFormat: 'dd.mm.yy',
+		firstDay: 1,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''
+	};
+	$.datepicker.setDefaults($.datepicker.regional['nn']);
 });
 /* Written by Naimdjon Takhirov (naimdjon@gmail.com). */
 
@@ -1533,113 +1642,4 @@ jQuery(function($){
 		showMonthAfterYear: true,
 		yearSuffix: '年'};
 	$.datepicker.setDefaults($.datepicker.regional['zh-TW']);
-});
-/* Written by Pavel Selitskas <p.selitskas@gmail.com> */
-jQuery(function($){
-	$.datepicker.regional['be'] = {
-		closeText: 'Зачыніць',
-		prevText: '&larr;Папяр.',
-		nextText: 'Наст.&rarr;',
-		currentText: 'Сёньня',
-		monthNames: ['Студзень','Люты','Сакавік','Красавік','Травень','Чэрвень',
-		'Ліпень','Жнівень','Верасень','Кастрычнік','Лістапад','Сьнежань'],
-		monthNamesShort: ['Сту','Лют','Сак','Кра','Тра','Чэр',
-		'Ліп','Жні','Вер','Кас','Ліс','Сьн'],
-		dayNames: ['нядзеля','панядзелак','аўторак','серада','чацьвер','пятніца','субота'],
-		dayNamesShort: ['ндз','пнд','аўт','срд','чцв','птн','сбт'],
-		dayNamesMin: ['Нд','Пн','Аў','Ср','Чц','Пт','Сб'],
-		weekHeader: 'Тд',
-		dateFormat: 'dd.mm.yy',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''};
-	$.datepicker.setDefaults($.datepicker.regional['be']);
-});
-jQuery(function ($) {
-	$.datepicker.regional['fr-CA'] = {
-		closeText: 'Fermer',
-		prevText: 'Précédent',
-		nextText: 'Suivant',
-		currentText: 'Aujourd\'hui',
-		monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
-			'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
-		monthNamesShort: ['janv.', 'févr.', 'mars', 'avril', 'mai', 'juin',
-			'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'],
-		dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
-		dayNamesShort: ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
-		dayNamesMin: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
-		weekHeader: 'Sem.',
-		dateFormat: 'yy-mm-dd',
-		firstDay: 0,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''
-	};
-	$.datepicker.setDefaults($.datepicker.regional['fr-CA']);
-});
-/* Written by Sergey Kartashov (ebishkek@yandex.ru). */
-jQuery(function($){
-	$.datepicker.regional['ky'] = {
-		closeText: 'Жабуу',
-		prevText: '&#x3c;Мур',
-		nextText: 'Кий&#x3e;',
-		currentText: 'Бүгүн',
-		monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь',
-		'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
-		monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн',
-		'Июл','Авг','Сен','Окт','Ноя','Дек'],
-		dayNames: ['жекшемби', 'дүйшөмбү', 'шейшемби', 'шаршемби', 'бейшемби', 'жума', 'ишемби'],
-		dayNamesShort: ['жек', 'дүй', 'шей', 'шар', 'бей', 'жум', 'ише'],
-		dayNamesMin: ['Жк','Дш','Шш','Шр','Бш','Жм','Иш'],
-		weekHeader: 'Жум',
-		dateFormat: 'dd.mm.yy',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''
-	};
-	$.datepicker.setDefaults($.datepicker.regional['ky']);
-});
-/* Written by Bjørn Johansen (post@bjornjohansen.no). */
-jQuery(function($){
-	$.datepicker.regional['nb'] = {
-		closeText: 'Lukk',
-		prevText: '&#xAB;Forrige',
-		nextText: 'Neste&#xBB;',
-		currentText: 'I dag',
-		monthNames: ['januar','februar','mars','april','mai','juni','juli','august','september','oktober','november','desember'],
-		monthNamesShort: ['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'],
-		dayNamesShort: ['søn','man','tir','ons','tor','fre','lør'],
-		dayNames: ['søndag','mandag','tirsdag','onsdag','torsdag','fredag','lørdag'],
-		dayNamesMin: ['sø','ma','ti','on','to','fr','lø'],
-		weekHeader: 'Uke',
-		dateFormat: 'dd.mm.yy',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''
-	};
-	$.datepicker.setDefaults($.datepicker.regional['nb']);
-});
-/* Written by Bjørn Johansen (post@bjornjohansen.no). */
-jQuery(function($){
-	$.datepicker.regional['nn'] = {
-		closeText: 'Lukk',
-		prevText: '&#xAB;Førre',
-		nextText: 'Neste&#xBB;',
-		currentText: 'I dag',
-		monthNames: ['januar','februar','mars','april','mai','juni','juli','august','september','oktober','november','desember'],
-		monthNamesShort: ['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'],
-		dayNamesShort: ['sun','mån','tys','ons','tor','fre','lau'],
-		dayNames: ['sundag','måndag','tysdag','onsdag','torsdag','fredag','laurdag'],
-		dayNamesMin: ['su','må','ty','on','to','fr','la'],
-		weekHeader: 'Veke',
-		dateFormat: 'dd.mm.yy',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''
-	};
-	$.datepicker.setDefaults($.datepicker.regional['nn']);
 });

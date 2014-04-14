@@ -31,13 +31,17 @@
    <span><a href="Default.aspx" target="_blank">Mounika Dantuluru's Website</a></span>
 </div>
 
-<br /><br /><br /><br />
+<br />
 
 <div class="container">
     <div class="row">
         <div class="col-md-2">
             <div class="well">
                 <ul class="nav nav-list">
+                    <li><a href="story/index.htm?../Experiments/story.txt" target="_blank">Experiments</a></li>
+                    <li><a href="project.aspx" target="_blank">Project</a></li>
+                    <li><a href="story/index.htm?../documentation/story.txt" target="_blank">Project Documentation</a></li>
+                    <li><a href="blog/" target="_blank">Blog</a></li>
                     <li><a href="sitestatistics/" target="_blank">SiteStatistics</a></li>
                     <li><a href="statistics/" target="_blank">Statistics</a></li>
                     <li><a href="source/" target="_blank">Source</a></li>
@@ -47,9 +51,6 @@
                     <li><a href="filelist.aspx" target="_blank">FileList</a></li>
                     <li><a href="autofile.aspx" target="_blank">AutoFile</a></li>
                     <li><a href="images/autoimage.aspx" target="_blank">Images</a></li>
-                    <li><a href="blog/" target="_blank">Blog</a></li>
-                    <li><a href="story/index.htm?../Experiments/story.txt" target="_blank">Experiments</a></li>
-                    <li><a href="project.aspx" target="_blank">Project</a></li>
                 </ul>
              </div>         
         </div><!--col-md-2-->
