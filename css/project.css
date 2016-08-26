@@ -165,13 +165,16 @@ html, body {
 }
 
 #race-or-age-label {
-    margin: 15px 5px 15px 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
 #race-or-age {
-    margin: 15px 15px 15px 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
 }

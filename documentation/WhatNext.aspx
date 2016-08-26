@@ -17,14 +17,14 @@
             <h2>Documentation:</h2>
             <br />
         </div>
-         <div> <a href="ProjectOverview.aspx" target="_blank"><h4>Project Overview</h4></a></div>
-         <div> <a href="Technologies.aspx" target="_blank"><h4>Technologies Used</h4></a></div>
-         <div> <a href="ProjectStructure.aspx" target="_blank"><h4>Project Structure</h4></a></div>
-         <div> <a href="Instructions.aspx" target="_blank"><h4>Instructions</h4></a></div>
-         <div> <a href="APIs.aspx" target="_blank"><h4>API's Used</h4></a></div>
-         <div> <a href="References.aspx" target="_blank"><h4>References</h4></a></div>
-         <div> <a href="FutureScope.aspx" target="_blank"><h4>Future Scope</h4></a></div>
-        <br /><br /><br /><br /><br />
+         <div> <a href="ProjectOverview.aspx" target="_blank"><h3>Project Overview</h3></a></div>
+         <div> <a href="Technologies.aspx" target="_blank"><h3>Technologies Used</h3></a></div>
+         <div> <a href="ProjectStructure.aspx" target="_blank"><h3>Project Structure</h3></a></div>
+         <div> <a href="Instructions.aspx" target="_blank"><h3>Instructions</h3></a></div>
+         <div> <a href="APIs.aspx" target="_blank"><h3>API's Used</h3></a></div>
+         <div> <a href="References.aspx" target="_blank"><h3>References</h3></a></div>
+         <div> <a href="FutureScope.aspx" target="_blank"><h3>Future Scope</h3></a></div>
+        <br /><br /><br /><br />
     </form>
     <div id="footer">
         <span>Copyright &copy; 2014 by Mounika Dantuluru</span>
